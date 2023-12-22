@@ -41,7 +41,7 @@ a {
   cursor: pointer;
 }
 .dark {
-  background: #000;
+  background: var(--color-black, #000);
 }
 .dark header .container nav {
   background-color: #777;
