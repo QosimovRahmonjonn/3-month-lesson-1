@@ -4,9 +4,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: url(../images/background\ img-1.svg),
-    lightgray 50% / cover no-repeat;
+  background: url(../images/background\ img-1.svg);
   padding: 130px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .heading-3 {
   color: #fff;
