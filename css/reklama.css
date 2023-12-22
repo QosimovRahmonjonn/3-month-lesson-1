@@ -1,0 +1,35 @@
+/* REKLAMA SECTION */
+.image-icon-content {
+  background: url(../images/reklama\ image-1.png);
+  background-repeat: no-repeat;
+  width: 480px;
+  height: 732px;
+  flex-shrink: 0;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-icon-content h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px; /* 120.833% */
+  text-transform: capitalize;
+}
+.reklama-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #333;
+}
+.image-icon-content-2 {
+  background: url(../images/reklama\ image-2.png);
+}
+.image-icon-content-3 {
+  background: url(../images/reklama\ image-3.png);
+}

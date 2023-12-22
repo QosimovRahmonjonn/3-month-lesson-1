@@ -1,0 +1,280 @@
+@import "./header.css";
+@import "./about.css";
+@import "./sponsor.css";
+@import "./shop.css";
+@import "./music.css";
+@import "./reklama.css";
+@import "./footer.css";
+@import "./new.css";
+@import "./nav-responsiv.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+@font-face {
+  font-family: Orbitron;
+  src: url(../fonts/Orbitron-Regular.ttf);
+}
+body {
+  background: #e5e5e5;
+  transition: background 0.5s ease-in-out;
+}
+a {
+  text-decoration: none;
+}
+
+/* DARK LIGHT */
+#light-dark {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.dark {
+  background: #000;
+}
+.dark header .container nav {
+  background-color: #777;
+}
+.dark main .sponsor {
+  background: #333;
+}
+.dark header nav {
+  background: #333;
+}
+.dark main #about .container .game-content {
+  background: #222;
+}
+.dark .nav-link:hover {
+  color: #fac422;
+}
+.dark #light-dark svg {
+  fill: #fff;
+}
+.dark .heading-2 {
+  color: #fff;
+}
+.dark .dark * {
+  color: white !important;
+}
+.dark .footer {
+  background: #333;
+}
+.dark .heading-7 {
+  color: #fff;
+}
+.dark .prg-8 {
+  color: white;
+}
+.dark .new-article {
+  background: #222;
+}
+.dark .music-section {
+  background: #333;
+}
+.dark .prg-3 {
+  color: #fff;
+}
+@media (max-width: 1380px) {
+  .new-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .new-cards-card-1 {
+    margin-bottom: 30px;
+  }
+  .new-cards-card-2 {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 1340px) {
+  .game-content {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, black 50%, #57b8ff 50%);
+  }
+  .game-img {
+    margin-top: 500px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1120px) {
+  .nav {
+    margin: 0 20px;
+    gap: 20px;
+  }
+  nav {
+    background: #777;
+  }
+  #light-dark svg {
+    fill: #000;
+  }
+
+  .game-content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fire-content {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 900px) {
+  .prg-8 {
+    margin: 0px 20px;
+  }
+  .prg-9 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 780px) {
+  .new-article-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-5 {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 704px) {
+  .btn-6 {
+    margin: 30px 0;
+  }
+  .gmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .new-cards-card-1 img {
+    width: 80%;
+  }
+  .new-cards-card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading-5 {
+    margin: 0 20px;
+    text-align: center;
+  }
+  .prg-5 {
+    max-width: 510px;
+    width: 100%;
+  }
+  .card {
+    max-width: 640px;
+    min-height: 212px;
+    padding: 20px;
+  }
+  .cards {
+    padding: 16px;
+  }
+  .game-img img {
+    max-width: 650px;
+    width: 100%;
+  }
+  .game-content {
+    background: #111;
+  }
+  .game-img {
+    margin: 40px;
+  }
+  .game-content {
+    padding: 30px 0 20px;
+  }
+
+  .night-and-btn-1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+  }
+  .night-and-btn-1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .music-content {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 530px) {
+  .pubg-reels video {
+    width: 90%;
+  }
+  .image-icon-content {
+    width: 90%;
+    height: 400px;
+  }
+  .card {
+    height: 300px;
+  }
+  .music-section {
+    padding: 0;
+  }
+  .heading-7 {
+    font-size: 40px;
+  }
+  .email {
+    width: 300px;
+  }
+  .buttons {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .heading-1 {
+    font-size: 40px;
+  }
+  .music-witdh {
+    gap: 0;
+  }
+}
+@media (max-width: 430px) {
+  .footer {
+    height: 1000px;
+  }
+  .new-cards-card-1 img {
+    width: 200px;
+  }
+  .new-cards-card-2 img {
+    width: 200px;
+  }
+  .card-2-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .new-cards-card-3 img {
+    width: 200px;
+  }
+  .new-cards-card-4 img {
+    width: 200px;
+  }
+}
+@media (max-width: 390px) {
+  .card {
+    height: 380px;
+  }
+  .heading-8 {
+    font-size: 40px;
+  }
+  .heading-6 {
+    max-width: 300px;
+    width: 100%;
+  }
+  .image-icon-content h1 {
+    font-size: 36px;
+  }
+}
