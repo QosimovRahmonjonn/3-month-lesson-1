@@ -25,6 +25,11 @@ body {
   background: #e5e5e5;
   transition: background 0.5s ease-in-out;
 }
+:root {
+  --color-bg: #fff;
+  --font-size: 32px;
+  --color-black: #000;
+}
 a {
   text-decoration: none;
 }
