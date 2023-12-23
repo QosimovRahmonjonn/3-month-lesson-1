@@ -52,6 +52,7 @@ nav {
   height: 62px;
   flex-shrink: 0;
   background: transparent;
+  cursor: pointer;
 }
 .night-and-btn-1 {
   display: flex;
