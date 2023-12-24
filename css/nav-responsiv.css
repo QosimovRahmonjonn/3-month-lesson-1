@@ -1,7 +1,6 @@
 #navbar-responsive.open {
   left: 0;
 }
-
 .menu-btn {
   border: 0;
   background: transparent;
@@ -11,14 +10,12 @@
   gap: 4px;
   display: none;
 }
-
 .menu-btn span {
   display: block;
   width: 30px;
   height: 4px;
   background-color: #fff;
 }
-
 /* MEDIA QUERIES */
 @media (max-width: 1120px) {
   #navbar-responsive {
@@ -34,7 +31,6 @@
     background-color: #777;
     transition: 0.5s;
   }
-
   .menu-btn {
     display: flex;
   }

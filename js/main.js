@@ -11,3 +11,8 @@ function toggleNavbar() {
 }
 
 document.getElementById("menu-btn").addEventListener("click", toggleNavbar);
+// LOADING
+const loading = document.getElementById("loading");
+window.addEventListener("load", () => {
+  loading.classList.add("loading-none");
+});
